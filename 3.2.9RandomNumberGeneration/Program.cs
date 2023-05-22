@@ -25,5 +25,9 @@ namespace _3._2._9RandomNumberGeneration
             }
             
         }
+        int FunctionUsingRandom(Random n,int max)
+        {
+            return (n.Next(0, max));
+        }
     }
 }
